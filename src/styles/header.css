@@ -1,0 +1,22 @@
+#header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-height: 100px;
+    border-radius: 15px;
+
+    /* Glassmorphism styles */
+    background-color: rgba(255, 255, 255, 0.15); /* Very light white with more transparency */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Softer, broader shadow */
+    backdrop-filter: blur(10px); /* The key for the frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle light border */
+
+    /* Existing positioning */
+    position: sticky;
+    top: 20px;
+    z-index: 1000; /* Ensure it stays on top of other content if scrolled */
+}

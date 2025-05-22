@@ -1,0 +1,16 @@
+#navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+}
+
+.nav-link {
+    background-color: #9347AC;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
