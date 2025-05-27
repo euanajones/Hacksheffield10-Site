@@ -16,18 +16,18 @@
 
 .countdown-timer .number {
     font-size: 5em;
-    font-family: 'Quantico';
+    font-family: 'Quantico', Arial;
     font-weight: bold;
     color: whitesmoke;
     margin: 0;
 }
 
 .countdown-timer .number p {
-    font-family: 'Quantico';
+    font-family: 'Quantico', Arial;
 }
 
 .countdown-timer .label p {
-    font-family: 'Quantico';
+    font-family: 'Quantico', Arial;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@
 .countdown-timer .label {
     font-size: 1em;
     text-align: center;
-    font-family: 'Quantico';
+    font-family: 'Quantico', Arial;
     color: whitesmoke;
 }
 

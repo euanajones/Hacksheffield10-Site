@@ -20,21 +20,36 @@
 }
 
 h2 {
-    font-family: "Quantico-Bold";
+    font-family: "Quantico-Bold", Arial;
     color: whitesmoke;
     font-weight: bold;
     font-size: 72px;
+    font-weight: 700;
     margin: 0;
+    text-align: center;
 }
 
 h3 {
-    font-family: "Quantico";
+    font-family: "Quantico", Arial;
     color: whitesmoke;
     font-size: 36px;
     margin: 0;
+    text-align: center;
 }
 
 #main-logo {
+    display: block;
+    margin: 50px auto;
     padding-top: 5%;
     width: 25dvw;
+
+    filter: drop-shadow(0 0 8px rgba(195, 50, 235, 0.8))
+            drop-shadow(0 0 15px rgba(195, 50, 235, 0.6));
+
+    transition: filter 0.3s ease-in-out;
+}
+
+#main-logo:hover {
+    filter: drop-shadow(0 0 15px rgba(195, 50, 235, 1))
+            drop-shadow(0 0 30px rgba(195, 51, 235, 0.8));
 }

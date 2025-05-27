@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Quantico";
+    src: url(/public/Quantico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Quantico-Bold";
+    src: url(/public/Quantico-Bold.ttf);
+}
+
 #header {
     margin: 20px;
     display: flex;
@@ -19,4 +29,10 @@
     z-index: 1000;
 
     margin-bottom: 100dvh;
+}
+
+#header-title {
+    font-family: "Quantico", Arial;
+    width: 30%;
+    text-align: left;
 }

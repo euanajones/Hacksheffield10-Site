@@ -1,25 +1,11 @@
-.quantico-regular {
-  font-family: "Quantico", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+    font-family: "Quantico";
+    src: url(/public/Quantico-Regular.ttf);
 }
 
-.quantico-bold {
-  font-family: "Quantico", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.quantico-regular-italic {
-  font-family: "Quantico", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.quantico-bold-italic {
-  font-family: "Quantico", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+@font-face {
+    font-family: "Quantico-Bold";
+    src: url(/public/Quantico-Bold.ttf);
 }
 
 #navlinks {
@@ -27,14 +13,32 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 33%;
+    width: 40%;
 }
 
 .nav-link {
     background-color: #ce29f2ff;
     color: whitesmoke;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Quantico", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     padding: 5px 10px;
-    border-radius: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    border-bottom: solid;
+    border-color: rgb(148, 36, 233);
+    border-width: 3px;
+    width: 30%;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: rgb(148, 36, 233);
+    border-color: rgb(89, 23, 193);
+    transition: 0.3s;
+}
+
+.nav-link:active {
+    border: none;
 }
