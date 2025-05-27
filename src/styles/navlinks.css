@@ -1,3 +1,27 @@
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 #navlinks {
     display: flex;
     flex-direction: row;
@@ -7,7 +31,7 @@
 }
 
 .nav-link {
-    background-color: #9347AC;
+    background-color: #ce29f2ff;
     color: whitesmoke;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;

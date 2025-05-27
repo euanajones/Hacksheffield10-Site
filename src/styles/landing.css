@@ -5,4 +5,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+@font-face {
+    font-family: "Quantico";
+    src: url(/public/Quantico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Quantico-Bold";
+    src: url(/public/Quantico-Bold.ttf);
+}
+
+h2 {
+    font-family: "Quantico-Bold";
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 72px;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Quantico";
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+#main-logo {
+    padding-top: 5%;
+    width: 25dvw;
 }
